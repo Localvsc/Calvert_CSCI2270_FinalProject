@@ -16,3 +16,44 @@ Goals for the update:
 4) Add distances between cities (given in text file that creates network).
 4) "Deliver" a message to a certain city and determine distance the message traveled.
 5) Determine total length of network
+
+How to Run:
+	Running this program is simple, and exactly the same as running the original
+assignment 4. Just compile and run the program (no command-line arguments). The menu
+is also similar to the one from assignment 4. Type in the number of the option you 
+want to select and press enter (then follow the on-screen instructions).
+	When building a new network from a file, remember to include the .txt at the
+end of the filename. I have included a simple example file labeled newNetwork.txt, but
+any file that is in the same format should work.
+
+
+Dependencies:
+	No extra libraries need to be downloaded.
+
+System Requirements:
+	I have written the program on the CU Linux virtual machine, but it should
+work with other operating systems.
+
+
+Group Members:
+	Lucas Calvert (me)
+
+
+Contributors:
+	None yet
+
+
+Open Issues/Bugs:
+	There are several issues that I am currently aware of with this program:
+		-A segmentation fault occurs at the last element when clearing the
+		network
+		-Need to add cases in the Add/Delete city methods for when the input
+		city is not found
+		-A segmentation fault occurs in the find distance between 2 cities
+		method when either city is not found
+	It would also be good to add the add/delete/findDistance/... functionality
+	to the second network (should be easy to do)
+
+
+
+
