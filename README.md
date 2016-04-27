@@ -43,7 +43,8 @@ Open Issues/Bugs:
 		-Need to add cases in the Add/Delete city methods for when the input
 		city is not found
 		-A segmentation fault occurs in the find distance between 2 cities
-		method when either city is not found
+		method when either city is not found, or the city entered as the starting
+		city is after the ending city
 	It would also be good to add the add/delete/findDistance/... functionality
 	to the second network (should be easy to do)
 
