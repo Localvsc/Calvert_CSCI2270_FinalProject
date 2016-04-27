@@ -28,21 +28,21 @@ int main()
     int choice;
     /////////////////////////////////////////////////    Menu
 
-    cout << "======Main Menu======" << endl;                        //What the menu will look like
+
+    cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
     /////////////////////////////////////////////////
-    while(choice!=11){
+    while(choice!=10){
     if(choice==1){              //Build Network
 
     CN1.buildNetwork();
@@ -94,18 +94,18 @@ else{
 number2=true;
 
             //////////////////// Back to main menu
+     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
     }
@@ -140,18 +140,18 @@ number2=true;
     //cout<<	"=================="	<<	endl;
 
     //////////////////// Back to main menu
+     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
     }
     else if(choice==4){             //Transmit message Coast-To-Coast
@@ -161,43 +161,23 @@ char *file = "messageIn.txt";
 CN1.transmitMsg(file);
 
    //////////////////// Back to main menu
+     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
-    cin>>choice;
-
-    }
-    else if(choice==5){         //Merge Networks
-
-
-
-            //////////////////// Back to main menu
-    cout << "======Main Menu======" << endl;
-    cout<<"1. Build Main Network"<<endl;
-    cout<<"2. Build Extra Network From File"<<endl;
-    cout<<"3. Print Network Path"<<endl;
-    cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
 
     }
-    else if(choice==6){  //Find distance between 2 cities
+    else if(choice==5){  //Find distance between 2 cities
 
 string startCity;
     string endCity;
@@ -220,48 +200,49 @@ endCity = first2 + rest2;
 
 CN1.findDistance(startCity,endCity);
             //////////////////// Back to main menu
+     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
 
     }
-    else if(choice==7){     //Find total network length
+    else if(choice==6){     //Find total network length
 
 
 CN1.findTotalLength();
 
 
         //////////////////// Back to main menu
+     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
     }
 
-    else if(choice==8){         //Add city
+    else if(choice==7){         //Add city
     string previousCity;
     string newCity;
+    int dist;
 
 
 
@@ -279,26 +260,28 @@ cin >> first2;
 getline(cin, rest2);
 previousCity = first2 + rest2;
 
+cout<<"Enter a distance: "<<endl;
+cin>>dist;
 
-   CN1.addCity(previousCity, newCity);
 
- //////////////////// Back to main menu
+   CN1.addCity(previousCity, newCity, dist);
+
+  //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
     }
-     else if(choice==9){            //Delete City
+     else if(choice==8){            //Delete City
 string delCity;
 string rest1;                           //For inputing a city
 string first1;
@@ -312,23 +295,40 @@ delCity = first1 + rest1;
 
 
                                 //////////////////// Back to main menu
+    //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
     cout<<"1. Build Main Network"<<endl;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
     }
-     else if(choice==10){           //Clear Network
+     else if(choice==9){           //Clear Network
     CN1.clearNetwork();
 
+
+     //////////////////// Back to main menu
+    cout << "======Main Menu======" << endl;
+    cout<<"1. Build Main Network"<<endl;
+    cout<<"2. Build Extra Network From File"<<endl;
+    cout<<"3. Print Network Path"<<endl;
+    cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
+    cin>>choice;
+    }
+    else if(choice>10 || choice < 1){   //Not a valid input
+        cout<<endl<<"Not a valid input. Please enter a value between 1 and 11"<<endl<<endl;
 
     //////////////////// Back to main menu
     cout << "======Main Menu======" << endl;
@@ -336,35 +336,16 @@ delCity = first1 + rest1;
     cout<<"2. Build Extra Network From File"<<endl;
     cout<<"3. Print Network Path"<<endl;
     cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
-    cin>>choice;
-    }
-    else if(choice>11 || choice < 1){   //Not a valid input
-        cout<<endl<<"Not a valid input. Please enter a value between 1 and 11"<<endl<<endl;
-
-        //////////////////// Back to main menu
-    cout << "======Main Menu======" << endl;
-    cout<<"1. Build Main Network"<<endl;
-    cout<<"2. Build Extra Network From File"<<endl;
-    cout<<"3. Print Network Path"<<endl;
-    cout<<"4. Transmit Message Coast-To-Coast-To-Coast"<<endl;
-    cout<<"5. Merge Networks"<<endl;
-    cout<<"6. Find Distance Between Cities"<<endl;
-    cout<<"7. Find Total Network Length"<<endl;
-    cout<<"8. Add City"<<endl;
-    cout<<"9. Delete City"<<endl;
-    cout<<"10. Clear Network"<<endl;
-    cout<<"11. Quit"<<endl;
+    cout<<"5. Find Distance Between Cities"<<endl;
+    cout<<"6. Find Total Network Length"<<endl;
+    cout<<"7. Add City"<<endl;
+    cout<<"8. Delete City"<<endl;
+    cout<<"9. Clear Network"<<endl;
+    cout<<"10. Quit"<<endl;
     cin>>choice;
 
     }
-    }  //End of while(choice!=11)
+    }  //End of while(choice!=10)
     cout<<"Goodbye!"<<endl;
     return 0;
 

@@ -192,7 +192,7 @@ wordFile.open(filename);
 
 
 
-void CommunicationNetwork::addCity(std::string previousCity, std::string newCity){             //Updated
+void CommunicationNetwork::addCity(std::string previousCity, std::string newCity, int d){             //Updated
 //City *tail = tail;
 City *temp = head;
 City *returnCity = NULL;
@@ -241,6 +241,7 @@ else if(previousCity!=head->cityName && previousCity!=tail->cityName){
 City *n = new City;
 n->cityName = newCity;
 n->message = "";
+n->dist = d;
 temp->next->previous = n;
 n->next = temp->next;
 n->previous = temp;

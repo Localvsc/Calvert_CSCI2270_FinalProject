@@ -25,7 +25,7 @@ class CommunicationNetwork
     public:
         CommunicationNetwork();
         ~CommunicationNetwork();
-        void addCity(std::string, std::string);     //add if(not found) case
+        void addCity(std::string, std::string, int);     //add if(not found) case
         void buildNetwork();
         void transmitMsg(char *word);
         void printNetwork();
